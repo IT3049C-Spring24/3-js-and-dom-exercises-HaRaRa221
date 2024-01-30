@@ -18,7 +18,7 @@ class StringFunctions {
      * reverse('abc') // 'cba'
      */
   reverse(input) {
-    return input.split(``).reverse.join(``);
+    return input.split(``).reverse().join(``);
   }
   /**
      * Returns an array of the words in a string
