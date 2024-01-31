@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // 🤖: create 2 constants with references to the password input and the reveal button from the DOM
 const passwordInput = document.querySelector(`#password`);
 const passwordToggle = document.querySelector(`#togglepassword`);
