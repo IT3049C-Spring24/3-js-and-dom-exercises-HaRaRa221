@@ -28,6 +28,6 @@ class StringFunctions {
      * words('hello world') // ['hello', 'world']
      */
   split(input) {
-    return input.split(``).filter(w => w !== ``);
+    return input.split(` `);
   }
 }
